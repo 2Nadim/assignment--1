@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+    text-align: center;
+
+}
+
+#background-image {
+    background-image: url(donation6.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+
+
+}
