@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
+#first-part {
     text-size-adjust: 1000px;
     color: orangered;
     text-align: center;
@@ -10,10 +10,9 @@ h1 {
 
 }
 
-#text-decoration {
+.text-decoration {
     width: 50%;
     margin: auto;
-
     text-align: center;
 
 }
@@ -33,5 +32,31 @@ h1 {
     border-radius: 5px;
     background-color: chartreuse;
     font-size: 15px;
-    text-align: right;
+    text-align: center;
+}
+
+.donate-part {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+.taka {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: brown;
+}
+
+.donation-part {
+    font-display: flex;
+}
+
+.flexible-container {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.half-width {
+    width: flex;
 }
