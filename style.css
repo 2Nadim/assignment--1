@@ -1,5 +1,19 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 h1 {
-    color: blue;
+    text-size-adjust: 1000px;
+    color: red;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+#text-decoration {
+    width: 50%;
+    margin: auto;
+
     text-align: center;
 
 }
@@ -7,7 +21,11 @@ h1 {
 #background-image {
     background-image: url(donation6.jpg);
     background-repeat: no-repeat;
-    width: 100%;
+    padding: 100px;
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+
 
 
 }
