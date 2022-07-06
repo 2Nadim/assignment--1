@@ -10,30 +10,38 @@ body {
 
 }
 
+#donate-option {
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 15px;
+    background-color: chartreuse;
+    font-size: 15px;
+    width: 20%;
+
+}
+
+.amount {
+    text-align: center;
+    padding-left: 20%;
+}
+
 .text-decoration {
     width: 50%;
     margin: auto;
     padding-bottom: 50px;
     text-align: center;
+    color: black;
 }
 
 #background-image {
-    background-image: url(donation2.jpg);
+    background-image: url(images/donation4.jpg);
     background-repeat: no-repeat;
     padding: 60px;
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-size: cover;
 }
 
-#donate-option {
-    text-decoration: none;
-    padding: 5px 5px;
-    border-radius: 5px;
-    background-color: chartreuse;
-    font-size: 15px;
-    text-align: center;
-}
 
 .donate-part {
     text-align: center;
@@ -41,12 +49,25 @@ body {
 
 }
 
-
-.taka {
+.amount {
+    width: 50%;
+    display: flex;
+    font-display: flex;
     text-align: center;
-    padding: 5px 10px;
-    background-color: brown;
 }
+
+h2 {
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
 
 .donation-part {
     font-display: flex;
@@ -67,6 +88,7 @@ body {
     margin-right: 2%;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 40px grey;
+    text-align: justify;
 
 }
 
@@ -77,19 +99,20 @@ h1 {
 }
 
 #food {
-    background-image: url(food.png);
+    background-image: url(images/food.png);
     background-color: aquamarine;
+    padding-left: 30px;
 
 }
 
 #shelter {
-    background-image: url(shelter.png);
+    background-image: url(images/shelter.png);
     background-color: gray;
 
 }
 
 #education {
-    background-image: url(Frame-1.png);
+    background-image: url(images/Frame-1.png);
     background-color: burlywood;
 
 }
@@ -119,4 +142,40 @@ h1 {
     padding: 10px 40px;
     border-radius: 5px;
     color: aqua;
+}
+
+.email {
+    text-align: center;
+    align-items: center;
+    margin: 10px 30px;
+    background-color: blue;
+    padding: 30px 80px;
+
+    border-left: 100px;
+
+}
+
+#email-address {
+    background-color: aquamarine;
+}
+
+#subscribe {
+    background-color: red;
+}
+
+h3 {
+    font-style: italic;
+    color: brown;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h6 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.last-part {
+    background-color: black;
+    padding-bottom: 30px;
 }
