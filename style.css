@@ -73,6 +73,7 @@ body {
 h1 {
     text-align: center;
     padding-top: 60px;
+    font-size: 40px;
 }
 
 #food {
@@ -91,4 +92,31 @@ h1 {
     background-image: url(Frame-1.png);
     background-color: burlywood;
 
+}
+
+
+
+.their-live {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 80px;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 75%;
+}
+
+.contribute {
+    text-decoration: none;
+    background-color: red;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: aqua;
 }
