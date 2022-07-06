@@ -21,8 +21,17 @@ h1 {
 #background-image {
     background-image: url(donation2.jpg);
     background-repeat: no-repeat;
-    padding: 100px;
+    padding: 60px;
     width: 80%;
     margin: auto;
     background-size: cover;
+}
+
+#donate-option {
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: chartreuse;
+    font-size: 15px;
+    text-align: right;
 }
