@@ -152,22 +152,22 @@ h1 {
     color: aqua;
 }
 
+
+
+
 .email {
+    place-items: center;
     text-align: center;
     align-items: center;
-    margin: 10px 30px;
-    background-color: blue;
-    padding: 30px 80px;
+    margin: 20px 300px;
+    background-color: gray;
+    padding: 30px 30px;
 
     border-left: 100px;
 
 }
 
-#email-address {
-    background-color: aquamarine;
-}
-
-#subscribe {
+button {
     background-color: red;
 }
 
