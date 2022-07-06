@@ -13,8 +13,8 @@ body {
 .text-decoration {
     width: 50%;
     margin: auto;
+    padding-bottom: 50px;
     text-align: center;
-
 }
 
 #background-image {
@@ -55,8 +55,40 @@ body {
 .flexible-container {
     display: flex;
     padding-bottom: 50px;
+
+
 }
 
-.half-width {
-    width: flex;
+.donate-plan {
+    width: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 40px grey;
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+#food {
+    background-image: url(food.png);
+    background-color: aquamarine;
+
+}
+
+#shelter {
+    background-image: url(shelter.png);
+    background-color: gray;
+
+}
+
+#education {
+    background-image: url(Frame-1.png);
+    background-color: burlywood;
+
 }
