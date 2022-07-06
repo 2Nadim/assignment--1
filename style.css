@@ -10,13 +10,15 @@ body {
 
 }
 
-#donate-option {
+.donate-option {
     text-decoration: none;
     padding: 5px 5px;
     border-radius: 15px;
-    background-color: chartreuse;
-    font-size: 15px;
+    background-color: red;
+    font-size: 25px;
     width: 20%;
+
+
 
 }
 
@@ -62,6 +64,12 @@ h2 {
     border-radius: 5px;
 }
 
+footer {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    color: gray;
+}
 
 
 
