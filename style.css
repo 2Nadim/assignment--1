@@ -2,7 +2,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#first-part {
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+#title {
     text-size-adjust: 1000px;
     color: orangered;
     text-align: center;
@@ -11,15 +17,11 @@ body {
 }
 
 .donate-option {
-    text-decoration: none;
-    padding: 5px 5px;
+    padding: 2px 2px;
     border-radius: 15px;
-    background-color: red;
-    font-size: 25px;
-    width: 20%;
-
-
-
+    background-color: blueviolet;
+    font-size: 15px;
+    width: 15%;
 }
 
 .amount {
@@ -30,7 +32,7 @@ body {
 .text-decoration {
     width: 50%;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     text-align: center;
     color: black;
 }
@@ -66,26 +68,19 @@ h2 {
 
 footer {
     text-align: center;
-    text-decoration: underline;
     font-size: 20px;
     color: gray;
 }
 
+hr {
+    width: 50%;
+    margin: 0 auto;
 
-
-
-
-
-
-.donation-part {
-    font-display: flex;
 }
 
 .flexible-container {
     display: flex;
     padding-bottom: 50px;
-
-
 }
 
 .donate-plan {
@@ -97,35 +92,27 @@ footer {
     background-repeat: no-repeat;
     box-shadow: 10px 10px 40px grey;
     text-align: justify;
-
-}
-
-h1 {
-    text-align: center;
-    padding-top: 60px;
-    font-size: 40px;
 }
 
 #food {
     background-image: url(images/food.png);
     background-color: aquamarine;
-    padding-left: 30px;
+    background-position: top;
 
 }
 
 #shelter {
     background-image: url(images/shelter.png);
     background-color: gray;
-
+    background-position: top;
 }
 
 #education {
     background-image: url(images/Frame-1.png);
     background-color: burlywood;
+    background-position: top;
 
 }
-
-
 
 .their-live {
     display: flex;
@@ -152,19 +139,14 @@ h1 {
     color: aqua;
 }
 
-
-
-
 .email {
     place-items: center;
     text-align: center;
     align-items: center;
     margin: 20px 300px;
-    background-color: gray;
+    background-color: yellowgreen;
     padding: 30px 30px;
-
     border-left: 100px;
-
 }
 
 button {
